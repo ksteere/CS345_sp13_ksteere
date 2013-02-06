@@ -37,7 +37,7 @@
     _case1match = equalToIgnoringCase(@"HellO, World");       //REPLACE WITH YOUR OWN MATCHER
     _case2match = hasCount(isNot(@10)); //REPLACE WITH YOUR OWN MATCHER
     _case3match = onlyContains(stringContainsInOrder(@"e", @"a", @"o", nil), nil);          //REPLACE WITH YOUR OWN MATCHER
-    _case4match = isNot(nil);      //REPLACE WITH YOUR OWN MATCHER
+    _case4match = hasItem(closeTo(42, 1));      //REPLACE WITH YOUR OWN MATCHER
 }
 
 //Case 1
