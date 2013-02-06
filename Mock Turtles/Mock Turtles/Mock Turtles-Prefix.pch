@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Mock Turtles' target in the 'Mock Turtles' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
